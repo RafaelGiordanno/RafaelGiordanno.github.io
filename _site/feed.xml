@@ -3,8 +3,24 @@
 	<channel>
 		<title>Blog Name</title>
 		<description>Software Developer</description>
-		<link>http://streetturtle.github.io/jekyll-clean-dark</link>
-		<atom:link href="http://streetturtle.github.io/jekyll-clean-dark/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://streetturtle.github.io</link>
+		<atom:link href="http://streetturtle.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hello World</title>
+				<description>&lt;h1 id=&quot;hello-world&quot;&gt;Hello World!&lt;/h1&gt;
+
+&lt;p&gt;This is my first &lt;strong&gt;blog post&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here you’ll find stuff related to programming, games, music, art and personal challenges that I take. Enjoy!&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Rafael Giordanno&lt;/p&gt;
+</description>
+				<pubDate>Mon, 15 Feb 2016 00:00:00 -0200</pubDate>
+				<link>http://streetturtle.github.io/2016/02/hello-world</link>
+				<guid isPermaLink="true">http://streetturtle.github.io/2016/02/hello-world</guid>
+			</item>
 		
 			<item>
 				<title>Jekyll Dark Clean Theme</title>
@@ -22,17 +38,17 @@
 
 &lt;p&gt;Here how it looks like on some portable devices:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/jekyll-clean-dark/images/iphone_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 portrait&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/images/iphone_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 portrait&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/jekyll-clean-dark/images/iphone_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 landscape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/images/iphone_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 landscape&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/jekyll-clean-dark/images/ipad_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini portrait&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/images/ipad_portrait.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini portrait&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/jekyll-clean-dark/images/ipad_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini landscape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/images/ipad_landscape.PNG&quot; alt=&quot;My helpful screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPad mini landscape&lt;/em&gt;&lt;/p&gt;
 </description>
 				<pubDate>Tue, 01 Dec 2015 14:25:06 -0200</pubDate>
-				<link>http://streetturtle.github.io/jekyll-clean-dark/2015/12/jekyll-clean-theme</link>
-				<guid isPermaLink="true">http://streetturtle.github.io/jekyll-clean-dark/2015/12/jekyll-clean-theme</guid>
+				<link>http://streetturtle.github.io/2015/12/jekyll-clean-theme</link>
+				<guid isPermaLink="true">http://streetturtle.github.io/2015/12/jekyll-clean-theme</guid>
 			</item>
 		
 			<item>
@@ -82,8 +98,8 @@
 &lt;/blockquote&gt;
 </description>
 				<pubDate>Mon, 02 Nov 2015 14:25:06 -0200</pubDate>
-				<link>http://streetturtle.github.io/jekyll-clean-dark/2015/11/text-formatting</link>
-				<guid isPermaLink="true">http://streetturtle.github.io/jekyll-clean-dark/2015/11/text-formatting</guid>
+				<link>http://streetturtle.github.io/2015/11/text-formatting</link>
+				<guid isPermaLink="true">http://streetturtle.github.io/2015/11/text-formatting</guid>
 			</item>
 		
 			<item>
@@ -119,8 +135,8 @@ respective owners:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
 				<pubDate>Sun, 01 Nov 2015 14:25:06 -0200</pubDate>
-				<link>http://streetturtle.github.io/jekyll-clean-dark/2015/11/installation</link>
-				<guid isPermaLink="true">http://streetturtle.github.io/jekyll-clean-dark/2015/11/installation</guid>
+				<link>http://streetturtle.github.io/2015/11/installation</link>
+				<guid isPermaLink="true">http://streetturtle.github.io/2015/11/installation</guid>
 			</item>
 		
 			<item>
@@ -130,7 +146,7 @@ respective owners:&lt;/p&gt;
 &lt;p&gt;This theme supports two types of images:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;inline images: &lt;img src=&quot;http://streetturtle.github.io/jekyll-clean-dark/images/batWid1.png&quot; alt=&quot;Battery Widget&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;inline images: &lt;img src=&quot;http://streetturtle.github.io/images/batWid1.png&quot; alt=&quot;Battery Widget&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![Battery Widget]({{ site.url | append:site.baseurl }}/images/batWid1.png)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -139,7 +155,7 @@ respective owners:&lt;/p&gt;
   &lt;li&gt;centered images with caption (optionally):&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/jekyll-clean-dark/images/iphone_landscape.PNG&quot; alt=&quot;screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 landscape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://streetturtle.github.io/images/iphone_landscape.PNG&quot; alt=&quot;screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;em&gt;iPhone 5 landscape&lt;/em&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![screenshot]({{ site.baseurl | prepend:site.url}}/images/iphone_landscape.PNG){: .center-image }*iPhone 5 landscape*&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -157,8 +173,8 @@ respective owners:&lt;/p&gt;
 
 </description>
 				<pubDate>Thu, 01 Oct 2015 13:25:06 -0300</pubDate>
-				<link>http://streetturtle.github.io/jekyll-clean-dark/2015/10/images</link>
-				<guid isPermaLink="true">http://streetturtle.github.io/jekyll-clean-dark/2015/10/images</guid>
+				<link>http://streetturtle.github.io/2015/10/images</link>
+				<guid isPermaLink="true">http://streetturtle.github.io/2015/10/images</guid>
 			</item>
 		
 			<item>
@@ -236,8 +252,8 @@ respective owners:&lt;/p&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
 				<pubDate>Tue, 01 Sep 2015 13:25:06 -0300</pubDate>
-				<link>http://streetturtle.github.io/jekyll-clean-dark/2015/09/code-syntax-highlighting</link>
-				<guid isPermaLink="true">http://streetturtle.github.io/jekyll-clean-dark/2015/09/code-syntax-highlighting</guid>
+				<link>http://streetturtle.github.io/2015/09/code-syntax-highlighting</link>
+				<guid isPermaLink="true">http://streetturtle.github.io/2015/09/code-syntax-highlighting</guid>
 			</item>
 		
 			<item>
@@ -269,8 +285,8 @@ respective owners:&lt;/p&gt;
 &lt;p&gt;To enable &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; register on the site and then just put your name in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.xml&lt;/code&gt;. Comments could be switched on and off on per post basis, just put &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to enable them.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 01 Aug 2015 13:25:06 -0300</pubDate>
-				<link>http://streetturtle.github.io/jekyll-clean-dark/2015/08/analytics-tags-comments</link>
-				<guid isPermaLink="true">http://streetturtle.github.io/jekyll-clean-dark/2015/08/analytics-tags-comments</guid>
+				<link>http://streetturtle.github.io/2015/08/analytics-tags-comments</link>
+				<guid isPermaLink="true">http://streetturtle.github.io/2015/08/analytics-tags-comments</guid>
 			</item>
 		
 			<item>
@@ -319,8 +335,8 @@ Out-of-the box it has:&lt;/p&gt;
 
 </description>
 				<pubDate>Wed, 01 Jul 2015 13:25:06 -0300</pubDate>
-				<link>http://streetturtle.github.io/jekyll-clean-dark/2015/07/social-icons</link>
-				<guid isPermaLink="true">http://streetturtle.github.io/jekyll-clean-dark/2015/07/social-icons</guid>
+				<link>http://streetturtle.github.io/2015/07/social-icons</link>
+				<guid isPermaLink="true">http://streetturtle.github.io/2015/07/social-icons</guid>
 			</item>
 		
 	</channel>
