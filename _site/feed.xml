@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description></description>
+		<link>http://RafaelGiordanno.github.io</link>
+		<atom:link href="http://RafaelGiordanno.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hello World</title>
+				<description>&lt;h1 id=&quot;hello-world&quot;&gt;Hello World!&lt;/h1&gt;
+
+&lt;p&gt;This is my first &lt;strong&gt;blog post&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here you’ll find stuff related to programming, games, music, art and personal challenges that I take. Enjoy!&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Rafael Giordanno&lt;/p&gt;
+</description>
+				<pubDate>Mon, 15 Feb 2016 00:00:00 -0200</pubDate>
+				<link>http://RafaelGiordanno.github.io/2016/02/15/hello-world.html</link>
+				<guid isPermaLink="true">http://RafaelGiordanno.github.io/2016/02/15/hello-world.html</guid>
+			</item>
+		
+	</channel>
+</rss>

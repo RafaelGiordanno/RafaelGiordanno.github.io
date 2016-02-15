@@ -1,6 +1,7 @@
 excerpt_separator: ""
-pygments: true
+highlighter: pygments
 markdown: kramdown
 url: http://RafaelGiordanno.github.io
 title: Rafael Giordanno
+gems:   [jekyll-paginate]
 paginate: 23
