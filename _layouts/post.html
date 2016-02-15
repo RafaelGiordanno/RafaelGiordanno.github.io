@@ -1,47 +1,43 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }} </title>
-    <link href="http://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="/assets/css/default.css" />
-    <link rel="alternate" type="application/atom+xml" title="Feed for blog posts" href="/feed.xml">
-</head>
-<body>
-    <div class="wrapper">
-    <nav>
-        <a href="/">home</a> &middot; <a href="/feed.xml">feed</a>
-    </nav>
-    <header>
-        <h1>{{ page.title }}</h1>
-        <time>{{ page.date | date_to_string }}</time>
-    </header>
-    <article>
-        {{ content }}
-        {% for post in site.posts %}
-            {% if post.url == page.url %}
-                {% assign post_index = forloop.index %}                        
-            {% endif %}
-        {% endfor %}
-        {% for post in site.posts %}
-            {% if post_index == forloop.index0 %}
-                {% assign next_url = post_url %}
-                {% assign next_title = post_title %}
-            {% endif %}
-        {% endfor %}
-        {% if next_url %}
-        <aside>
-            <p><strong>next:</strong><br />
-            <a href="{{ next_url }}">{{ next_title }}</a></p>
-        </aside>
-        {% endif %}
-    </article>
+{% include header.html %}
 
-    <footer>
-        <a href="/">home</a> &middot; <a href="/feed.xml">feed</a> &middot; <a href="https://tinypress.co/">&lt;3, tinypress</a>
-    </footer>
+<div class="wrapper">
+  <div class="content">
+    <div class="container container-center">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="article">
+            <div class="well">
+              <h1><a href="{{ site.url | append:site.baseurl | append:page.url }}">{{ page.title }}</a></h1>
+              <div class="post-meta">
+                <div class="post-time">
+                  <i class="fa fa-calendar"></i>
+                  <time>{{ page.date | date_to_string }}</time>
+                </div>
+                <ul>
+                  {% for tag in page.tags %}
+                    <li><a href="{{ site.url | append:site.baseurl }}/tag/{{ tag }}">{{ tag }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+              <div class="post-content">
+                <div id="toc" class="toc"></div>
+                {{ content }}
+              </div>
+              {% if page.comments %}
+              <div id="disqus_thread">
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 hidden-xs">
+          {% include sidebar.html %}
+        </div>
+      </div>
+    </div>
+    {% include disqus-comments.html %}
   </div>
-</body>
-</html>
+  {% include footer.html %}
+</div>
