@@ -6,13 +6,15 @@
 </description>
     <link>https://rafaelgiordanno.github.io/</link>
     <atom:link href="https://rafaelgiordanno.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Sep 2016 18:09:47 -0300</pubDate>
-    <lastBuildDate>Fri, 23 Sep 2016 18:09:47 -0300</lastBuildDate>
+    <pubDate>Fri, 23 Sep 2016 18:17:42 -0300</pubDate>
+    <lastBuildDate>Fri, 23 Sep 2016 18:17:42 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Semana 01: O que são algoritmos</title>
-        <description>&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
+        <description>&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Compreender o que são algoritmos&lt;/li&gt;
@@ -42,11 +44,9 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Podemos dizer que essa é uma forma de resolver esse problema, mas a nossa solução ainda tem uns buracos. Não definimos o que é uma tampa, por exemplo. A pessoa pode não saber o que é. Pensar em uma pessoa que não é capaz de entender essas instruções ou adaptar soluções em tempo real é como pensar em um computador.&lt;/p&gt;
+&lt;p&gt;Podemos dizer que essa é uma forma de resolver esse problema, mas a nossa solução ainda tem uns buracos. Não definimos o que é uma tampa, por exemplo. A pessoa pode não saber o que é uma tampa de caneta. Pensar em uma pessoa que não é capaz de entender essas instruções ou adaptar soluções em tempo real é como pensar em um computador.&lt;/p&gt;
 
-&lt;p&gt;Podemos ainda pensar em soluções&lt;/p&gt;
-
-&lt;p&gt;Uma solução para trocar a lâmpada, ainda incorreta, mas plausível para seres humanos:&lt;/p&gt;
+&lt;p&gt;Crie uma solução para trocar uma lâmpada e confira se parece com a minha. Uma solução para trocar uma lâmpada, ainda incompleta, mas plausível para seres humanos:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1: Ter os elementos necessários
 2: Desligar o interruptor
