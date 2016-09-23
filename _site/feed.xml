@@ -6,8 +6,8 @@
 </description>
     <link>https://rafaelgiordanno.github.io/</link>
     <atom:link href="https://rafaelgiordanno.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Sep 2016 18:17:42 -0300</pubDate>
-    <lastBuildDate>Fri, 23 Sep 2016 18:17:42 -0300</lastBuildDate>
+    <pubDate>Fri, 23 Sep 2016 18:53:04 -0300</pubDate>
+    <lastBuildDate>Fri, 23 Sep 2016 18:53:04 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -165,24 +165,6 @@
         <category>algoritmos</category>
         
         <category>curso-python</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hello World</title>
-        <description>&lt;h1 id=&quot;hello-world&quot;&gt;Hello World!&lt;/h1&gt;
-
-&lt;p&gt;This is my first &lt;strong&gt;blog post&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here you’ll find stuff related to programming, games, music, art and personal challenges that I take. Enjoy!&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Rafael Giordanno&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Feb 2016 00:00:00 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/2016/02/15/hello-world.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/2016/02/15/hello-world.html</guid>
         
         
       </item>
