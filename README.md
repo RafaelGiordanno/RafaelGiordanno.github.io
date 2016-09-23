@@ -1,49 +1,24 @@
-Jekyll Clean Dark
-============
+# Libretto - Jekyll Theme
 
-This theme was created on top of Jekyll Clean theme by Scotte, you can view the originnal version in action [on his blog](https://scotte.github.io).
+Libretto is a responsive one-column Jekyll theme with classic styling and careful typographic details.
 
-* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
-* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
-* See it [in action on my own blog](http://pavelmakhov.com).
+Based on the [Libretto Wordpress theme](https://wordpress.org/themes/libretto/).
 
-This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
-sidebar.
+## Install and Test
 
-Optionally you can use:
+1. Download or clone the repo
+  - `git clone git@github.com:ferrolho/jekyll-theme-libretto.git`
+2. Enter the folder
+  - `cd jekyll-theme-libretto/`
+3. Start Jekyll server
+  - `jekyll serve --watch`
+4. Access via
+  - http://127.0.0.1:4000/jekyll-theme-libretto/
 
- - [Disqus](http://disqus.com) as a comments system;
- - [Google Analytics](http://www.google.com/analytics/);
- - [Yandex Metrika](http://metrica.yandex.com);
- - Blog tags.
+## Demo
 
-All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social acounts. It uses font-awesome, so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
+- https://ferrolho.github.io/jekyll-theme-libretto/
 
-Installation
-==
+## Preview
 
-If you dont't have your own blog you can clone this repository and put your articles in a `_posts` folder.
-If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
-
-After you will have to set up your `_config.yml`
-
-License
-=======
-
-The content of this theme is distributed and licensed under a
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
-
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
-
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to the original theme on github.
-
-This theme includes the following files which are the properties of their
-respective owners:
-
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
+![Theme preview](http://i.imgur.com/2ZCmoKo.png)
