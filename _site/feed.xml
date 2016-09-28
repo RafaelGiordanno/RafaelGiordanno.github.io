@@ -6,9 +6,356 @@
 </description>
     <link>https://rafaelgiordanno.github.io/</link>
     <atom:link href="https://rafaelgiordanno.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 17:28:51 -0300</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 17:28:51 -0300</lastBuildDate>
+    <pubDate>Tue, 27 Sep 2016 18:36:53 -0300</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2016 18:36:53 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Semana 02 - Aula 01: Conhecendo Python</title>
+        <description>&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Usando o IDLE e o Terminal para escrever código&lt;/li&gt;
+  &lt;li&gt;Como escrever código com Python&lt;/li&gt;
+  &lt;li&gt;Blocos de código&lt;/li&gt;
+  &lt;li&gt;Tipos de dados primitivos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
+
+&lt;h3 id=&quot;escrevendo-o-nosso-primeiro-programa&quot;&gt;Escrevendo o nosso primeiro programa&lt;/h3&gt;
+
+&lt;p&gt;Na última aula, vimos como o computador interpreta ordens que damos a ele. Hoje, vamos escrever o nosso primeiro programa em Python. Se estiver usando Ubuntu Linux, aperte o botão do Windows e digite &lt;code class=&quot;highlighter-rouge&quot;&gt;terminal&lt;/code&gt; ou use o atalho &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Shift + T&lt;/code&gt; para abrir o terminal.&lt;/p&gt;
+
+&lt;p&gt;Com o Terminal aberto, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python3&lt;/code&gt;, aperte a tecla &lt;code class=&quot;highlighter-rouge&quot;&gt;Tab&lt;/code&gt; para ver quais opções estão disponíveis e complete com o número da versão referente ao seu Python e aperte &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;. No momento em que escrevemos isso, a versão é a 3.5, logo digitamos &lt;code class=&quot;highlighter-rouge&quot;&gt;python3.5&lt;/code&gt; e apertamos &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Você acabou de abrir o &lt;strong&gt;&lt;em&gt;interpretador Python&lt;/em&gt;&lt;/strong&gt;. O interpretador é um programa que executa instruções de uma linguagem de programação em tempo real. Se vocês lembram de terem trabalhado com o os blocos de código do code.org, vocês certamente perceberam que os seus blocos de código poderiam ser traduzidos para texto em lingua inglesa. Então por exemplo, um bloco que vocês arrastaram chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;Vire à direita&lt;/code&gt; poderia ser reescrito como &lt;code class=&quot;highlighter-rouge&quot;&gt;turnRight()&lt;/code&gt;. Assim como nas linguas portuguesa, inglesa e outras, existem regras que devem ser obedecidas para tornar a sua frase legível. Por exemplo, se eu escrever&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Eu gosto chocolate&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vocês entendem que eu provavelmente gosto &lt;strong&gt;de&lt;/strong&gt; chocolate. Nós humanos somos bons em analisar a frase para extrair o significado dela. Já os computadores não. Se você não escrever a frase direitinho, o computador não entende o que você está falando e solta um &lt;strong&gt;&lt;em&gt;erro de sintaxe&lt;/em&gt;&lt;/strong&gt; dizendo que a frase não faz sentido. Tipo aquele amiguinho chato que corrige o nosso português o tempo inteiro.&lt;/p&gt;
+
+&lt;p&gt;No entanto, diferente das linguagens que usamos para nos comunicar, as linguagens de programação são muito pequenas e possuem poucas regras e &lt;strong&gt;palavras-chave&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vamos escrever o nosso primeiro programa em Python, com o console Python aberto, digite (não copie e cole, digite) o seguinte código:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;E com esse código, começamos a nossa aventura com Python. Você deve ter percebido que o console simplesmente escreveu Hello World novamente.&lt;/p&gt;
+
+&lt;p&gt;Vamos explicar o que está acontecendo&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;print()&lt;/code&gt;&lt;/strong&gt; tem a função de pegar o que estiver entre parênteses e escrever na tela.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Hello World&quot;&lt;/code&gt;&lt;/strong&gt; escrito assim entre aspas é um texto. Todo texto em Python deve estar entre “aspas” ou ‘apóstrofos’. Então se você usar &lt;code class=&quot;highlighter-rouge&quot;&gt;'Hello World'&lt;/code&gt; também está certo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lidando-com-erros&quot;&gt;Lidando com erros&lt;/h3&gt;
+
+&lt;p&gt;Agora vamos analisar como é que o nosso &lt;strong&gt;interpretador&lt;/strong&gt; Python vai reagir se escrevermos essa linha de código de um jeito inesperado. Digite a mesma linha de código de cima, só que dessa vez esqueça as aspas, assim:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;World&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Dessa vez não apareceu a frase &lt;em&gt;Hello World&lt;/em&gt; na tela, não foi? O Python não entendeu o que você queria e lançou o que ele chama de &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SyntaxError&lt;/code&gt;&lt;/strong&gt; (Erro de sintaxe). Esse erro simplesmente significa que você escreveu o código de um jeito errado e ele não entendeu o que você quis dizer. Assim como esquecemos a palavra &lt;strong&gt;de&lt;/strong&gt; na frase &lt;em&gt;Eu gosto chocolate&lt;/em&gt;, também esquecemos as aspas no texto do nosso programa.&lt;/p&gt;
+
+&lt;p&gt;Agora vamos esquecer de fechar as aspas para ver o que acontece, escreva:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;O &lt;em&gt;interpretador Python&lt;/em&gt; nos retorna outro erro de sintaxe, porém esse tem uma mensagem diferente que traduzindo significa: &lt;code class=&quot;highlighter-rouge&quot;&gt;EOL enquanto escaneia literal string&lt;/code&gt;. EOL significa &lt;strong&gt;E&lt;/strong&gt;nd &lt;strong&gt;O&lt;/strong&gt;f &lt;strong&gt;L&lt;/strong&gt;ine e o que essa mensagem quer nos passar é que o nosso texto não fechou as aspas no final da linha.&lt;/p&gt;
+
+&lt;p&gt;Fiquem atentos sempre que vocês forem escrever qualquer código para garantir que ele funciona e que vocês reconheçam como corrigir um erro de sintaxe. Com o tempo e experiência, vocês só terão erros de sintaxe por causa de distrações.&lt;/p&gt;
+
+&lt;h3 id=&quot;um-pouco-de-matemtica-tipos-numricos&quot;&gt;Um pouco de matemática: tipos numéricos&lt;/h3&gt;
+
+&lt;p&gt;Agora vamos aprender a realizar contas no interpretador Python. Entre com a seguinte operação aritmética no console:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2 + 3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;E aperte Enter, veja que ele exibe resultado para essa operação, que é 5. Relembrando que, na matemática, &lt;em&gt;2&lt;/em&gt; e &lt;em&gt;3&lt;/em&gt; são &lt;strong&gt;operandos&lt;/strong&gt; enquanto que o sinal de adição (&lt;em&gt;+&lt;/em&gt;) é um &lt;strong&gt;operador&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;A seguir temos uma lista de operadores matemáticos válidos no Python:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;(+) Adição&lt;/li&gt;
+  &lt;li&gt;(-) Subtração&lt;/li&gt;
+  &lt;li&gt;(*) Multiplicação&lt;/li&gt;
+  &lt;li&gt;(/) Divisão (não confundir com a contra barra “\”)&lt;/li&gt;
+  &lt;li&gt;(%) Resto (resto da divisão)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vamos um de cada vez, pratique no console digitando manualmente os resultados entre 8 e 4. Para esses exemplos, não importa a quantidade de espaços em branco você vai utilizar. Você vai ver nos exemplos&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;    &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;    &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Na última linha, 8 % 4 é igual a 0 porque não existe resto na divisão entre 8 e 4.&lt;/p&gt;
+
+&lt;p&gt;Os números podem ser inteiros como:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;7&lt;/li&gt;
+  &lt;li&gt;23&lt;/li&gt;
+  &lt;li&gt;1849063&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ou podem ser reais, apenas lembre-se que em inglês números reais usam ponto (.) ao invés de vírgula. Por exemplo:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3.14&lt;/li&gt;
+  &lt;li&gt;17.1&lt;/li&gt;
+  &lt;li&gt;874.1522&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;O Python chama os números inteiros de &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int&lt;/code&gt;&lt;/strong&gt; e os reais de &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;float&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Como prática, realize contas com os números 7 e 4 e tente prever os resultados antes de apertar Enter.&lt;/p&gt;
+
+&lt;h3 id=&quot;um-pouco-de-matemtica-expresses&quot;&gt;Um pouco de matemática: expressões&lt;/h3&gt;
+
+&lt;p&gt;OK, sabemos fazer contas com dois números, mas e se usarmos mais de dois números? Vamos verificar:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Você consegue adivinhar qual o resultado da última operação antes de colocá-lo no console?&lt;/p&gt;
+
+&lt;p&gt;Assim como na matemática, as expressões são avaliadas da esquerda para direita com prioridade para multiplicação, divisão e resto, depois adição e subtração. Vamos quebrar uma operação passo a passo:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;24 * 2 + 3 * 2 - 4 / 2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Resolvemos primeiro as multiplicações e divisões, vamos cercá-las com parênteses para ficar mais claro&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(24 * 2) + (3 * 2) - (4 / 2)
+48 + 6 - 2
+54 - 2
+52&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vamos fazer mais uma antes de avançar:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;3 * 2 * 4 / 2 - 9
+6 * 4 / 2 - 9
+24 / 2 - 9
+12 - 9
+3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Repare que resolvemos da esquerda para a direita, mas quando se trata do mesmo nível de precedência não faz muita diferença, vamos começar com a divisão:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;3 * 2 * 4 / 2 - 9
+3 * 2 * 2 - 9
+3 * 4 - 9
+12 - 9
+3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Um erro numa operação matemática quando esquecemos algum operando, assim&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Recebemos um erro de sintaxe que diz &lt;em&gt;EOF inesperado enquanto analisa&lt;/em&gt;, EOF significa Fim de Arquivo (&lt;strong&gt;E&lt;/strong&gt;nd &lt;strong&gt;O&lt;/strong&gt;f &lt;strong&gt;F&lt;/strong&gt;ile) e quer dizer que o operador que usamos é binário e precisa de dois operandos, mas no momento em que ele analisava a expressão ele só encontrou o fim do arquivo.&lt;/p&gt;
+
+&lt;h3 id=&quot;precedncia-de-operadores&quot;&gt;Precedência de operadores&lt;/h3&gt;
+
+&lt;p&gt;Tem momentos em que queremos realizar uma operação em uma ordem diferente, por exemplo na seguinte operação&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Aqui temos 6 como resultado, mas e se quisermos executar a adição antes de fazer a multiplicação? Para isso, cercamos a nossa operação desejada com parênteses. Assim:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Em programação é muito comum cercamos expressões com parênteses mesmo quando não é necessário, isso nos ajuda a visualizar melhor as sub expressões que estamos avaliando. Não tenha medo de usar parênteses caso tenha dúvida com relação à precedência de operadores.&lt;/p&gt;
+
+&lt;h3 id=&quot;variveis&quot;&gt;Variáveis&lt;/h3&gt;
+
+&lt;p&gt;Podemos usar variáveis para guardar valores que queremos usar mais tarde. Vamos supor que queiramos guardar a nossa idade. No meu caso, faremos:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Para criar uma variável basta pensar em um nome e usar o operador de atribuição (&lt;strong&gt;=&lt;/strong&gt;) para fornecer um valor para ela. Nesse caso, criamos uma variável chamada &lt;strong&gt;idade&lt;/strong&gt; com o valor &lt;strong&gt;24&lt;/strong&gt;. Nomes de variáveis são &lt;strong&gt;case sensitive&lt;/strong&gt;, o que significa que a nossa variável &lt;strong&gt;idade&lt;/strong&gt; só pode ser escrita desse jeito com letras minúsculas.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IDADE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;NameError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'IDADE'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;defined&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;O interpretador não consegue encontrar nenhuma variável chamada &lt;em&gt;IDADE&lt;/em&gt; com letras maiúsculas, apenas &lt;em&gt;idade&lt;/em&gt; com letras minúsculas.&lt;/p&gt;
+
+&lt;p&gt;Existem regras para criar nomes de variáveis:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Devem começar com uma letra (a - z, A - Z) ou um sublinhado (_)&lt;/li&gt;
+  &lt;li&gt;Depois da primeira letra, pode-se usar letras, números ou sublinhados&lt;/li&gt;
+  &lt;li&gt;Case sensitive&lt;/li&gt;
+  &lt;li&gt;Não podem ser palavras reservadas do Python&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nomes bons de variável são escritos com letras minúsculas e letras maiúsculas para as próximas palavras:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;idadeRafael&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;idadeRafael&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;strings&quot;&gt;Strings&lt;/h3&gt;
+
+&lt;p&gt;No nosso primeiro programa, escrevemos&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;E aprendemos que &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Hello World&quot;&lt;/code&gt;&lt;/strong&gt; é um texto em Python. Chamamos textos de &lt;strong&gt;Strings&lt;/strong&gt; e, em Python, eles podem ser escritos com “aspas” ou ‘apóstrofos’.&lt;/p&gt;
+
+&lt;p&gt;Pratique escrevendo outros textos em Python:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Ao infinito e além&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Ao&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;infinito&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;al&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;é&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Que que há, velhinho?&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Que&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;que&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;á&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;velhinho&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;?&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Foi sem querer, querendo!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Foi&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;querer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;querendo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Podemos criar variáveis do tipo String&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Rafael&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Rafael&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;E podemos fazer operações com nomes também&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Rafael'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; tem 24 anos&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Rafael&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tem&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;anos&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ao usar o operador de adição com Strings, ele junta as duas Strings pra formar uma frase. Podemos criar expressões com Strings também, desse jeito:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Rafael&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'24'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; tem &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; anos&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Repare que idade é uma String, se você tentar somar números tomará um erro, tente digitar no interpretador e veja o que acontece:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;4&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Podemos multiplicar Strings também, dessa forma:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Ho&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HoHoHo&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Podemos escrever um programa que pergunte ao usuário o que ele quer. Para isso, usamos a função &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;input()&lt;/code&gt;&lt;/strong&gt; dessa forma:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Rafael&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Giordanno&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; tem 24 anos&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Rafael&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Giordanno&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tem&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;anos&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;convertendo-tipos&quot;&gt;Convertendo tipos&lt;/h3&gt;
+
+&lt;p&gt;Vamos supor que queiramos receber o que o usuário digitou para realizar uma conta, um programa que diga quantos anos a pessoa daqui exatamente um ano. Não podemos fazer conta direto com o que vem do input porque teremos um erro:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Daqui a um ano você vai ter &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Can&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'t convert '&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;' object to str implicitly&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Para converter o nosso número para string usamos a função &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;str()&lt;/code&gt;&lt;/strong&gt; e para converter uma string para um número inteiro usamos a função &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int()&lt;/code&gt;&lt;/strong&gt;. Demonstrando como converter um número para string:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Daqui exatamente um ano você vai ter &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;idade&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Daqui&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exatamente&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;um&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ano&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;voc&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;ê&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vai&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ter&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;241&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bom, não tá certo. Que tal você corrigir o programa pra ele somar certo?&lt;/p&gt;
+
+&lt;h3 id=&quot;questionrio&quot;&gt;Questionário&lt;/h3&gt;
+
+&lt;p&gt;Verifique o seu e-mail e responda as perguntas do questionário usando essa lição como referência.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Sep 2016 16:23:12 -0300</pubDate>
+        <link>https://rafaelgiordanno.github.io/2016/09/23/semana02-aula01.html</link>
+        <guid isPermaLink="true">https://rafaelgiordanno.github.io/2016/09/23/semana02-aula01.html</guid>
+        
+        <category>tipos-dados</category>
+        
+        <category>curso-python</category>
+        
+        
+      </item>
     
       <item>
         <title>Semana 01: O que são algoritmos</title>
