@@ -6,12 +6,12 @@
 </description>
     <link>https://rafaelgiordanno.github.io/</link>
     <atom:link href="https://rafaelgiordanno.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Sep 2016 11:41:20 -0300</pubDate>
-    <lastBuildDate>Thu, 29 Sep 2016 11:41:20 -0300</lastBuildDate>
+    <pubDate>Thu, 29 Sep 2016 11:46:06 -0300</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2016 11:46:06 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Semana 02 - Aula 01: Conhecendo Python</title>
+        <title>Semana 02 - Aula 02: Editando blocos de código e tomando decisões</title>
         <description>&lt;p&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
@@ -287,9 +287,9 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Fri, 23 Sep 2016 16:23:12 -0300</pubDate>
-        <link>https://rafaelgiordanno.github.io/2016/09/23/semana02-aula02.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/2016/09/23/semana02-aula02.html</guid>
+        <pubDate>Wed, 28 Sep 2016 16:23:12 -0300</pubDate>
+        <link>https://rafaelgiordanno.github.io/2016/09/28/semana02-aula02.html</link>
+        <guid isPermaLink="true">https://rafaelgiordanno.github.io/2016/09/28/semana02-aula02.html</guid>
         
         <category>tipos-dados</category>
         
