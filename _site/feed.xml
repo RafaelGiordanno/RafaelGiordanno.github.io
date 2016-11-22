@@ -6,8 +6,8 @@
 </description>
     <link>https://rafaelgiordanno.github.io/</link>
     <atom:link href="https://rafaelgiordanno.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Nov 2016 05:03:29 -0200</pubDate>
-    <lastBuildDate>Mon, 21 Nov 2016 05:03:29 -0200</lastBuildDate>
+    <pubDate>Mon, 21 Nov 2016 05:05:33 -0200</pubDate>
+    <lastBuildDate>Mon, 21 Nov 2016 05:05:33 -0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -39,7 +39,7 @@
 
 &lt;p&gt;Agora rode o programa, aperte ESC e veja o que aconteça.&lt;/p&gt;
 
-&lt;p&gt;Como já falamos em aulas passadas, quando temos diferentes if’s que fazem a mesma coisa, podemos simplesmente colocá-los em um único if. Usando parênteses, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;and&lt;/code&gt;&lt;/strong&gt; e &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;or&lt;/code&gt;&lt;/strong&gt; faça isso com a condição anterior.&lt;/p&gt;
+&lt;p&gt;Como já falamos em aulas passadas, quando temos diferentes if’s que fazem a mesma coisa, podemos simplesmente colocá-los em um único if. Usando parênteses, &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;and&lt;/code&gt;&lt;/strong&gt; e &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;or&lt;/code&gt;&lt;/strong&gt;. Faça isso com a condição anterior.&lt;/p&gt;
 
 &lt;h2 id=&quot;preparando-o-nosso-programa&quot;&gt;Preparando o nosso programa&lt;/h2&gt;
 
