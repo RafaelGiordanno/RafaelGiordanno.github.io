@@ -4,16 +4,22 @@ layout: default
 
 <div class="table-of-contents">
 
-	<h1 class="page-heading">Aulas de Python</h1>
-
-	<ul class="post-list">
-		{% for post in site.posts %}
-		<li>
-			<span class="post-meta" style="font-style: italic;">• {{ post.date | date: "%B %-d, %Y" }} •</span>
-
-			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h3>
-		</li>
-		{% endfor %}
-	</ul>
-
+	<h1 class="page-heading">Criador</h1>
+	<h3 style="text-align: center;">
+		<a href="https://rafaelgiordanno.itch.io/" target="_blank">Jogos</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+		<a href="https://soundcloud.com/rafaelgiordanno" target="_blank">Música</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+		<a href="https://medium.com/@rafaelgiordanno" target="_blank">Medium</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+		<a href="{{ site.baseurl }}/blog">Blog</a>
+	</h3>
+	<p style="text-align: center;">
+		Bem vindo ao meu site! Sou um desenvolvedor do Rio de Janeiro que gosta 
+		de trabalhar com jogos e música. Aqui eu você encontrará todos os trabalhos
+		que desenvolvi até o momento. Caso esteja interessado em trabalhos, palestras,
+		traduções ou aulas de programação ou jogos, entre em contato pelo meu 
+		<a href="mailto:{{ site.email }}">email</a> ou clique no ícone da carta 
+		no canto inferior direito para conversar comigo!
+	</p>
+	<em style="color: #eeeeeb">TO DO: Implementar a área de traduções de documentação 
+	que estou trabalhando</em>
+	
 </div>

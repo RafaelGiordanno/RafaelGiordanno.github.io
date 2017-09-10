@@ -23,6 +23,9 @@
     &:visited {
         color: $title-color;
     }
+	&:hover {
+		color: #427f7f;
+	}
 }
 
 
@@ -254,7 +257,7 @@
         color: $brand-color;
         display: block;
         font-family: "Playfair Display";
-        font-size: 44px;
+        font-size: 26px;
         text-align: center;
 
         @include media-query($on-laptop) {

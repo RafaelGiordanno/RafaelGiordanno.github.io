@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="table-of-contents">
+
+	<h1 class="page-heading">Blog do Rafael</h1>
+	<em style="color: #ededea">TO DO: Implementar categorias para filtrar</em>
+
+	<ul class="post-list">
+		{% for post in site.categories.blog-post reversed %}
+		<li>
+			<span class="post-meta" style="font-style: italic;">• {{ post.date | date: "%B %-d, %Y" }} •</span>
+
+			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h3>
+		</li>
+		{% endfor %}
+	</ul>
+
+</div>
