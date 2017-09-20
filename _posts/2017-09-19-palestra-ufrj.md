@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Minha palestra sobre game feel na UFRJ"
-date: 2017-09-12 06:42:23
+date: 2017-09-19 21:10:23
 categories: blog-post
 description: Update da palestra parte 1.
 tags:
