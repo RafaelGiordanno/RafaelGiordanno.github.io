@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="table-of-contents">
+
+	<h1 class="page-heading" id="gameDescription">Shmup</h1>
+    <p>
+        Teclas Q e E iteram entre as versões do jogo. Use o mouse para controlar a nave.<br />
+        Os slides da apresentação podem ser encontrados <a href="palestra-slides" target="_blank">aqui</a>.<br />
+        Ainda vou procurar adicionar notas explicando cada alteração...
+    </p>
+	<div id="game" style="width: 100%; text-align: center;"></div>
+    <p>
+        Existem inúmeras coisas que podem ser melhoradas nesse protótipo de 5 dias,
+        mas é possível visualizar como o apelo quase nulo de um gameplay bem simples
+        pode aumentar consideravelmente quando temos acesso à alguns fatores que tornam nossos jogos
+        visualmente mais interessantes.
+    </p>
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script> 
+    <script> 
+        WebFont.load({google: { families: ['Monoton', 'cursive'] } }); 
+    </script>
+	<script src="{{ site.baseurl }}/assets/pixi.js"></script>
+    <script src="{{ site.baseurl }}/assets/pixi-filters.js"></script>
+    <script src="{{ site.baseurl }}/assets/gameshow.js"></script>
+    <script>
+        // helper math functions
+function clamp(num, min, max) {
+    return (num <= min) ? min : (num >= max ? max : num);
+}
+function lerp(a, b, t) {
+    return (b - a) * t + a;
+}
+function overlaps(a, b) {
+    return distance(a.x, a.y, b.x, b.y) <= (a.r + b.r);
+}
+function distance(x1, y1, x2, y2) {
+    return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+}
+function arcctg(x) { return Math.PI / 2 - Math.atan(x); }
+
+// t: time, b: beginning, _c: end, d: duration
+function easeInQuad(t, b, _c, d) {
+    var c = _c - b;
+    return c * (t /= d) * t + b;
+}
+
+function easeInElastic(t, b, _c, d) {
+    var c = _c - b;
+    var a, p, s;
+    s = 1.70158;
+    p = 0;
+    a = c;
+    if (t === 0) {
+      return b;
+    } else if ((t /= d) === 1) {
+      return b + c;
+    }
+    if (!p) {
+      p = d * 0.3;
+    }
+    if (a < Math.abs(c)) {
+      a = c;
+      s = p / 4;
+    } else {
+      s = p / (2 * Math.PI) * Math.asin(c / a);
+    }
+    return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
+}
+    </script>
+</div>

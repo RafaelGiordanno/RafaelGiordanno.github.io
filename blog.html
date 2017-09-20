@@ -8,7 +8,7 @@ layout: default
 	<em style="color: #ededea">TO DO: Implementar categorias para filtrar</em>
 
 	<ul class="post-list">
-		{% for post in site.categories.blog-post reversed %}
+		{% for post in site.categories.blog-post %}
 		<li>
 			<span class="post-meta" style="font-style: italic;">• {{ post.date | date: "%B %-d, %Y" }} •</span>
 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% if page.title %}
+	<meta property="og:title" content="{{ site.title }} • {{ page.title }}">
+	{% else %}
+	<meta property="og:title" content="{{ site.title }}">
+	{% endif %}
+
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/reveal.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/black.css">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+</head>
+    
+<body>
+    <div class="reveal">
+        {{ content }}
+    </div>
+    <script src="{{site.baseurl}}/assets/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            mouseWheel: true, defaultTiming: 420,
+        });
+    </script>
+</body>
+
+</html>
