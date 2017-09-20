@@ -4,10 +4,10 @@
     <title>Rafael Giordanno</title>
     <description>Site em constante desenvolvimento com jekyll e github pages
 </description>
-    <link>https://rafaelgiordanno.github.io/</link>
-    <atom:link href="https://rafaelgiordanno.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Sep 2017 21:00:43 -0300</pubDate>
-    <lastBuildDate>Tue, 19 Sep 2017 21:00:43 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 19 Sep 2017 21:27:02 -0300</pubDate>
+    <lastBuildDate>Tue, 19 Sep 2017 21:27:02 -0300</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -28,9 +28,9 @@ subir no youtube em breve.&lt;/p&gt;
 
 &lt;p&gt;E o jogo de demonstração pode ser testado &lt;a href=&quot;/palestra&quot;&gt;nesse link&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 12 Sep 2017 03:42:23 -0300</pubDate>
-        <link>https://rafaelgiordanno.github.io/blog-post/2017/09/12/palestra-ufrj.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/blog-post/2017/09/12/palestra-ufrj.html</guid>
+        <pubDate>Tue, 19 Sep 2017 18:10:23 -0300</pubDate>
+        <link>http://localhost:4000/blog-post/2017/09/19/palestra-ufrj.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog-post/2017/09/19/palestra-ufrj.html</guid>
         
         <category>blog-post</category>
         
@@ -65,8 +65,8 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;p&gt;O/&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Sep 2017 00:34:12 -0300</pubDate>
-        <link>https://rafaelgiordanno.github.io/blog-post/2017/09/10/centralizacao-do-site-e-palestra.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/blog-post/2017/09/10/centralizacao-do-site-e-palestra.html</guid>
+        <link>http://localhost:4000/blog-post/2017/09/10/centralizacao-do-site-e-palestra.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog-post/2017/09/10/centralizacao-do-site-e-palestra.html</guid>
         
         <category>blog-post</category>
         
@@ -286,8 +286,8 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 20 Nov 2016 08:23:12 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/curso-python-2016/2016/11/20/semana10-aula01.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/curso-python-2016/2016/11/20/semana10-aula01.html</guid>
+        <link>http://localhost:4000/curso-python-2016/2016/11/20/semana10-aula01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/11/20/semana10-aula01.html</guid>
         
         <category>algoritmos</category>
         
@@ -513,8 +513,8 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;h3 id=&quot;exerccios&quot;&gt;Exercícios&lt;/h3&gt;
 </description>
         <pubDate>Tue, 15 Nov 2016 08:23:12 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/curso-python-2016/2016/11/15/semana09-aula01.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/curso-python-2016/2016/11/15/semana09-aula01.html</guid>
+        <link>http://localhost:4000/curso-python-2016/2016/11/15/semana09-aula01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/11/15/semana09-aula01.html</guid>
         
         
         <category>curso-python-2016</category>
@@ -774,8 +774,8 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;p&gt;Como exercício, termine de fazer o programa quicando pelas paredes.&lt;/p&gt;
 </description>
         <pubDate>Sat, 05 Nov 2016 23:23:12 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/curso-python-2016/2016/11/05/semana08-aula01.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/curso-python-2016/2016/11/05/semana08-aula01.html</guid>
+        <link>http://localhost:4000/curso-python-2016/2016/11/05/semana08-aula01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/11/05/semana08-aula01.html</guid>
         
         
         <category>curso-python-2016</category>
@@ -892,8 +892,8 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;p&gt;Apenas um exercícios para essa semana: defina um GDD que represente o que você acha interessante ter em seu jogo além do que já teremos. Procure pelo gameplay do jogo Thomas Was Alone para ter uma noção de como ficará o nosso jogo por alto.&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Oct 2016 08:23:12 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/curso-python-2016/2016/10/31/semana07-aula02.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/curso-python-2016/2016/10/31/semana07-aula02.html</guid>
+        <link>http://localhost:4000/curso-python-2016/2016/10/31/semana07-aula02.html</link>
+        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/31/semana07-aula02.html</guid>
         
         
         <category>curso-python-2016</category>
@@ -1033,8 +1033,8 @@ Charmander é igual a Charmader
 &lt;h3 id=&quot;exerccios&quot;&gt;Exercícios&lt;/h3&gt;
 </description>
         <pubDate>Sat, 29 Oct 2016 23:23:12 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/curso-python-2016/2016/10/29/semana07-aula01.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/curso-python-2016/2016/10/29/semana07-aula01.html</guid>
+        <link>http://localhost:4000/curso-python-2016/2016/10/29/semana07-aula01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/29/semana07-aula01.html</guid>
         
         
         <category>curso-python-2016</category>
@@ -1098,8 +1098,8 @@ Charmander é igual a Charmader
 &lt;p&gt;8 - (Mega Desafio) Você deve ter percebido que os programas anteriores tem grandes chances de possuir números iguais. Faça um programa que verifique quais números estão repetidos e aleatorize-os.&lt;/p&gt;
 </description>
         <pubDate>Mon, 24 Oct 2016 23:23:12 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/curso-python-2016/2016/10/24/semana06-aula02.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/curso-python-2016/2016/10/24/semana06-aula02.html</guid>
+        <link>http://localhost:4000/curso-python-2016/2016/10/24/semana06-aula02.html</link>
+        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/24/semana06-aula02.html</guid>
         
         
         <category>curso-python-2016</category>
@@ -1167,8 +1167,8 @@ Charmander é igual a Charmader
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Sun, 23 Oct 2016 23:23:12 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/curso-python-2016/2016/10/23/semana06-aula01.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/curso-python-2016/2016/10/23/semana06-aula01.html</guid>
+        <link>http://localhost:4000/curso-python-2016/2016/10/23/semana06-aula01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/23/semana06-aula01.html</guid>
         
         
         <category>curso-python-2016</category>
@@ -1368,8 +1368,8 @@ Charmander é igual a Charmader
 &lt;/ol&gt;
 </description>
         <pubDate>Mon, 10 Oct 2016 17:23:12 -0200</pubDate>
-        <link>https://rafaelgiordanno.github.io/curso-python-2016/2016/10/10/semana04-aula01.html</link>
-        <guid isPermaLink="true">https://rafaelgiordanno.github.io/curso-python-2016/2016/10/10/semana04-aula01.html</guid>
+        <link>http://localhost:4000/curso-python-2016/2016/10/10/semana04-aula01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/10/semana04-aula01.html</guid>
         
         
         <category>curso-python-2016</category>
