@@ -2,13 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rafael Giordanno</title>
-    <description>Site em constante desenvolvimento com jekyll e github pages
-</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Sep 2017 21:27:02 -0300</pubDate>
-    <lastBuildDate>Tue, 19 Sep 2017 21:27:02 -0300</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <description>Desenvolvedor e compositor</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 27 Mar 2018 23:30:20 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Mar 2018 23:30:20 +0000</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Minha palestra sobre game feel na UFRJ</title>
@@ -28,9 +27,9 @@ subir no youtube em breve.&lt;/p&gt;
 
 &lt;p&gt;E o jogo de demonstração pode ser testado &lt;a href=&quot;/palestra&quot;&gt;nesse link&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 19 Sep 2017 18:10:23 -0300</pubDate>
-        <link>http://localhost:4000/blog-post/2017/09/19/palestra-ufrj.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog-post/2017/09/19/palestra-ufrj.html</guid>
+        <pubDate>Tue, 19 Sep 2017 21:10:23 +0000</pubDate>
+        <link>/palestra-ufrj/</link>
+        <guid isPermaLink="true">/palestra-ufrj/</guid>
         
         <category>blog-post</category>
         
@@ -64,9 +63,9 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;O/&lt;/p&gt;
 </description>
-        <pubDate>Sun, 10 Sep 2017 00:34:12 -0300</pubDate>
-        <link>http://localhost:4000/blog-post/2017/09/10/centralizacao-do-site-e-palestra.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog-post/2017/09/10/centralizacao-do-site-e-palestra.html</guid>
+        <pubDate>Sun, 10 Sep 2017 03:34:12 +0000</pubDate>
+        <link>/centralizacao-do-site-e-palestra/</link>
+        <guid isPermaLink="true">/centralizacao-do-site-e-palestra/</guid>
         
         <category>blog-post</category>
         
@@ -87,13 +86,13 @@ breve não temos uma nova mudança?&lt;/p&gt;
   &lt;li&gt;Controle de eventos no Pygame&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h1&gt;
+&lt;h1 id=&quot;transcrição-da-aula&quot;&gt;Transcrição da Aula&lt;/h1&gt;
 
 &lt;h2 id=&quot;mais-sobre-eventos&quot;&gt;Mais sobre eventos&lt;/h2&gt;
 
 &lt;p&gt;Vamos modificar o nosso programa da última aula para fazer com que ele feche a janela ao apertarmos ESC, adicione a linha de código comentada ao loop for&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
 	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;QUIT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 		&lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 		&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -112,7 +111,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Vamos montar um programa que prepare o nosso terreno para que possamos criar os retângulos que se movimentam a partir do teclado.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -157,7 +156,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Agora que temos a base para o nosso jogo, precisamos analisar como fazer o nosso jogador se mover. Para isso, vamos criar uma variável que verifica se o jogador está se movendo para uma direção.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -216,7 +215,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Vamos, também, criar um evento para adicionar comida onde o mouse for clicado na tela. E para terminar, vamos determinar um método de colisão embutido do pygame que verifica se dois retângulos estão colidindo&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -279,15 +278,15 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;exerccios&quot;&gt;Exercícios&lt;/h3&gt;
+&lt;h3 id=&quot;exercícios&quot;&gt;Exercícios&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Termine a movimentação do player para os lados que estão faltando&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 20 Nov 2016 08:23:12 -0200</pubDate>
-        <link>http://localhost:4000/curso-python-2016/2016/11/20/semana10-aula01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/11/20/semana10-aula01.html</guid>
+        <pubDate>Sun, 20 Nov 2016 10:23:12 +0000</pubDate>
+        <link>/semana10-aula01/</link>
+        <guid isPermaLink="true">/semana10-aula01/</guid>
         
         <category>algoritmos</category>
         
@@ -308,15 +307,15 @@ breve não temos uma nova mudança?&lt;/p&gt;
   &lt;li&gt;Colisões no Pygame&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h1&gt;
+&lt;h1 id=&quot;transcrição-da-aula&quot;&gt;Transcrição da Aula&lt;/h1&gt;
 
-&lt;h2 id=&quot;entendendo-colises&quot;&gt;Entendendo colisões&lt;/h2&gt;
+&lt;h2 id=&quot;entendendo-colisões&quot;&gt;Entendendo colisões&lt;/h2&gt;
 
 &lt;p&gt;Verificar Colisões é um requerimento básico e praticamente essencial para mais de 90% dos jogos desenvolvidos. Antes de implementar vamos entender como funciona.&lt;/p&gt;
 
 &lt;p&gt;Para o nosso exemplo, usaremos o retângulo que quica pelas paredes, mas dessa vez faremos com que ele absorva outros retângulos que estão no mapa. Para isso, vamos determinar nosso template básico para o projeto com base no resultado da última aula, porém com uma pequena modificação, olhe onde está comentado:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -364,7 +363,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Precisamos adicionar as comidas em posições aleatórias, então vamos importar o random e criar uma lista de comidas e desenhá-las na tela. Mais uma vez, de olho nos comentários!&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -418,7 +417,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;verificando-colises&quot;&gt;Verificando colisões&lt;/h2&gt;
+&lt;h2 id=&quot;verificando-colisões&quot;&gt;Verificando colisões&lt;/h2&gt;
 
 &lt;p&gt;Agora precisamos verificar as colisões entre os retângulos de comida e o retângulo do jogador. Para isso, precisamos entender como é que funcionam as colisões.&lt;/p&gt;
 
@@ -433,7 +432,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;No entanto, acontecem casos especiais em que ao verificar os quatro cantos de um retângulo grande com um retângulo pequeno, o resultado não vai dar certo, logo precisamos realizar uma comparação do retângulo menor com o retângulo maior. O número de verificação aumenta para 8 vezes. Aqui está o código com essa implementação&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;doRectsCollide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
@@ -510,11 +509,11 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;exerccios&quot;&gt;Exercícios&lt;/h3&gt;
+&lt;h3 id=&quot;exercícios&quot;&gt;Exercícios&lt;/h3&gt;
 </description>
-        <pubDate>Tue, 15 Nov 2016 08:23:12 -0200</pubDate>
-        <link>http://localhost:4000/curso-python-2016/2016/11/15/semana09-aula01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/11/15/semana09-aula01.html</guid>
+        <pubDate>Tue, 15 Nov 2016 10:23:12 +0000</pubDate>
+        <link>/semana09-aula01/</link>
+        <guid isPermaLink="true">/semana09-aula01/</guid>
         
         
         <category>curso-python-2016</category>
@@ -531,7 +530,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
   &lt;li&gt;Ensinar o básico de Pygame&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h1&gt;
+&lt;h1 id=&quot;transcrição-da-aula&quot;&gt;Transcrição da Aula&lt;/h1&gt;
 
 &lt;h2 id=&quot;hello-pygame&quot;&gt;Hello Pygame&lt;/h2&gt;
 
@@ -539,7 +538,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Vamos apresentar um programa simples que cria uma janela e faz com que possamos fechá-la.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# como pygame não faz parte da biblioteca padrão do python, precisamos importá-lo&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# como pygame não faz parte da biblioteca padrão do python, precisamos importá-lo&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# para fecharmos o interpretador python depois que fechamos pygame&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
@@ -591,7 +590,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Tuplas são uma espécie de lista em que seus elementos não podem ser modificados. Ao invés de usar colchetes, tuplas usam parênteses, exemplo de código de tupla:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;RED_LISTA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;RED_LISTA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;RED_TUPLA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# para acessar os valores&lt;/span&gt;
@@ -606,7 +605,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Vamos retrabalhar no nosso programa &lt;code class=&quot;highlighter-rouge&quot;&gt;helloPygame.py&lt;/code&gt; para colocar uma cor de fundo, haverão comentários sobre as modificações:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -634,7 +633,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;A partir do nosso programa &lt;code class=&quot;highlighter-rouge&quot;&gt;helloPygame.py&lt;/code&gt; vamos criar um novo programa chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;helloAnimation.py&lt;/code&gt; que cria um retângulo e desenha-o na tela com o seu canto superior esquerdo no centro dela.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -664,7 +663,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Para criar o nosso retângulo usamos a linha de código&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;blockRect&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;240&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;150&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;blockRect&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;240&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;150&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -674,11 +673,11 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Como parâmetros, usamos a tela que ele vai desenhar (windowSurface), a cor que ele deve desenhar (blockColor) e qual rect ele precisa desenhar (blockRect) sumarizados nessa linha:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;draw&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;windowSurface&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blockColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blockRect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;draw&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;windowSurface&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blockColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blockRect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;movendo-o-nosso-retngulo&quot;&gt;Movendo o nosso retângulo&lt;/h2&gt;
+&lt;h2 id=&quot;movendo-o-nosso-retângulo&quot;&gt;Movendo o nosso retângulo&lt;/h2&gt;
 
 &lt;p&gt;Vamos fazer nosso retângulo se movimentar para a direita. O retângulo é caracterizado por ter quatro lados. A posição x e y desses quatro lados tem nome no pygame:&lt;/p&gt;
 
@@ -693,7 +692,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Podemos escolher alterar qualquer uns dos valores (left, right, top, bottom) e mudar a posição de nosso retângulo, para fazê-lo ir o tempo inteiro para a direita precisamos mudar a sua posição x atual para uma outra posição. Vamos adicionar essa linha antes de preencher a nossa tela com a cor de fundo:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;blockRect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;blockRect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;windowSurface&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BG_COLOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# resto do código continua&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -701,7 +700,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Se rodarmos o nosso programa, vamos ver que nosso retângulo se move muito rápido pela tela, isso acontece porque o nosso programa não está descansando e roda o mais rápido que pode, para isso, vamos adicionar umas linhas novas:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# precisamos importar a biblioteca de time para descansar em cada frame&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# precisamos importar a biblioteca de time para descansar em cada frame&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;time&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
@@ -732,7 +731,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Agora ao rodar o nosso programa, nosso retângulo se move mais devagar porque ele está descansando em cada frame. Mas queremos que ele se mova para a direita e esquerda.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# precisamos importar a biblioteca de time para descansar em cada frame&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# precisamos importar a biblioteca de time para descansar em cada frame&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;time&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pygame.locals&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
 
@@ -769,13 +768,13 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Agora nosso retângulo inverte sua posição x sempre que ele encosta na extremidade direita da tela, mas não funciona para quando ele encosta no lado esquerdo. Sabe-se que o canto superior esquerdo da tela faz referência à posição (0, 0) e o canto inferior direito faz referência à posição (WINDOW_WIDTH, WINDOW_HEIGHT) que, em nosso programa em específico, vale (640, 480).&lt;/p&gt;
 
-&lt;h3 id=&quot;exerccios&quot;&gt;Exercícios&lt;/h3&gt;
+&lt;h3 id=&quot;exercícios&quot;&gt;Exercícios&lt;/h3&gt;
 
 &lt;p&gt;Como exercício, termine de fazer o programa quicando pelas paredes.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 05 Nov 2016 23:23:12 -0200</pubDate>
-        <link>http://localhost:4000/curso-python-2016/2016/11/05/semana08-aula01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/11/05/semana08-aula01.html</guid>
+        <pubDate>Sun, 06 Nov 2016 01:23:12 +0000</pubDate>
+        <link>/semana08-aula01/</link>
+        <guid isPermaLink="true">/semana08-aula01/</guid>
         
         
         <category>curso-python-2016</category>
@@ -793,13 +792,13 @@ breve não temos uma nova mudança?&lt;/p&gt;
   &lt;li&gt;Como Funciona o Game Loop&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
+&lt;h2 id=&quot;transcrição-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
 
 &lt;p&gt;Sempre que temos uma ideia para algum jogo novo, é sempre bom compilarmos essa ideia em um GDD, ou Game Design Document.&lt;/p&gt;
 
 &lt;p&gt;O GDD contém todas as regras de Game Design referentes ao seu jogo.&lt;/p&gt;
 
-&lt;h3 id=&quot;mas-o-que--game-design&quot;&gt;Mas o que é Game Design&lt;/h3&gt;
+&lt;h3 id=&quot;mas-o-que-é-game-design&quot;&gt;Mas o que é Game Design&lt;/h3&gt;
 
 &lt;p&gt;É a arte de definir regras e leis de jogabilidade que serão aplicadas ao seu jogo.&lt;/p&gt;
 
@@ -856,7 +855,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;E isso pode ser o nosso jogo inteiro. Parece pouco, mas se for bem implementado, ele pode ser muito bem recebido pelos jogadores.&lt;/p&gt;
 
-&lt;h3 id=&quot;como--que-funciona-a-estrutura-de-um-jogo&quot;&gt;Como é que funciona a estrutura de um jogo?&lt;/h3&gt;
+&lt;h3 id=&quot;como-é-que-funciona-a-estrutura-de-um-jogo&quot;&gt;Como é que funciona a estrutura de um jogo?&lt;/h3&gt;
 
 &lt;p&gt;Em termos técnicos, um video game é apenas um tipo de software como outro qualquer com uma pequena diferença: &lt;strong&gt;ele está sempre ativo&lt;/strong&gt;.&lt;/p&gt;
 
@@ -864,7 +863,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;O game loop é  representado por um loop infinito que pode ser sintetizado mais ou menos dessa maneira em Python:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# inicializar a janela e os objetos de jogo&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# inicializar a janela e os objetos de jogo&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;inicializarJogo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 	&lt;span class=&quot;c&quot;&gt;# Analisa quais teclas e botões foram apertados&lt;/span&gt;
@@ -887,13 +886,13 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;A partir daqui, vamos desenvolver o nosso jogo com base no que queremos ver em nosso jogo, mas para manter um critério mais universal e resolver problemas considerados relativamente complexos, vamos procurar desenvolver um jogo de plataforma. Não poderemos criar o que escrevemos imediatamente, faremos em etapas que poderão, com sorte, nos auxiliar a resolver todos os problemas referentes ao jogo que discutimos. Vocês terão capacidade de evoluir o jogo final para algo do interesse de vocês.&lt;/p&gt;
 
-&lt;h3 id=&quot;exerccios&quot;&gt;Exercícios&lt;/h3&gt;
+&lt;h3 id=&quot;exercícios&quot;&gt;Exercícios&lt;/h3&gt;
 
 &lt;p&gt;Apenas um exercícios para essa semana: defina um GDD que represente o que você acha interessante ter em seu jogo além do que já teremos. Procure pelo gameplay do jogo Thomas Was Alone para ter uma noção de como ficará o nosso jogo por alto.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 31 Oct 2016 08:23:12 -0200</pubDate>
-        <link>http://localhost:4000/curso-python-2016/2016/10/31/semana07-aula02.html</link>
-        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/31/semana07-aula02.html</guid>
+        <pubDate>Mon, 31 Oct 2016 10:23:12 +0000</pubDate>
+        <link>/semana07-aula02/</link>
+        <guid isPermaLink="true">/semana07-aula02/</guid>
         
         
         <category>curso-python-2016</category>
@@ -912,20 +911,20 @@ breve não temos uma nova mudança?&lt;/p&gt;
   &lt;li&gt;Batalhas Pokemon&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
+&lt;h2 id=&quot;transcrição-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
 
 &lt;h2 id=&quot;listas-de-listas&quot;&gt;Listas de listas&lt;/h2&gt;
 
 &lt;p&gt;Digamos que temos duas listas que se relacionam de alguma maneira:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;nomesPokemon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Zubat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Rattata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Charmander&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Pikachu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Dragonite&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;nomesPokemon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Zubat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Rattata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Charmander&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Pikachu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Dragonite&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;chancesPokemon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;A lista &lt;code class=&quot;highlighter-rouge&quot;&gt;chancesPokemon&lt;/code&gt; é pouco intuitiva no que diz respeito à que pokemon estamos nos referindo. Podemos juntar as informações dos dois pokemons em uma única lista que tem outras listas. As nossas duas listas se transformam em:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# pokemons[indice][0] -&amp;gt; nome&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# pokemons[indice][0] -&amp;gt; nome&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# pokemons[indice][1] -&amp;gt; chance de capturar&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pokemons&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
 	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Zubat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; 
@@ -939,7 +938,7 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Não temos muitas definições do que o número pode significar, mas podemos deixar um comentário para que possa ficar mais claro o que ele significa. Para acessar o Dragonite, podemos fazer o seguinte:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# imprimir tudo&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# imprimir tudo&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pokemons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# imprimir apenas o nome&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pokemons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
@@ -950,11 +949,11 @@ breve não temos uma nova mudança?&lt;/p&gt;
 
 &lt;p&gt;Atualize o programa &lt;code class=&quot;highlighter-rouge&quot;&gt;pokemon.py&lt;/code&gt; para que eliminarmos uma variável e usar esse novo sistema de listas.&lt;/p&gt;
 
-&lt;h4 id=&quot;verificao-de-listas-de-listas&quot;&gt;Verificação de listas de listas&lt;/h4&gt;
+&lt;h4 id=&quot;verificação-de-listas-de-listas&quot;&gt;Verificação de listas de listas&lt;/h4&gt;
 
 &lt;p&gt;Crie um programa python chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;textoIgual.py&lt;/code&gt; que verifique se dois textos são iguais. Por exemplo:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Por favor entre com um texto
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Por favor entre com um texto
 &lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;Biscoito
 Agora entre com outro texto
 &lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;Bolacha
@@ -962,7 +961,7 @@ Biscoito é diferente de Bolacha
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Por favor entre com um texto
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Por favor entre com um texto
 &lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;Charmander
 Agora entre com outro texto
 &lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;Charmander
@@ -974,7 +973,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Lembre-se de que para criar listas, precisamos defini-las com a palavra-chave &lt;code class=&quot;highlighter-rouge&quot;&gt;def&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;encontrePokemon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;encontrePokemon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 	&lt;span class=&quot;c&quot;&gt;# código da função entra aqui (não esqueça de indentar)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -983,7 +982,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Para as batalhas pokemon, precisamos definir características para nossos pokemons. Como nosso programa de pokemon já está relativamente grande, vamos fazer uns testes em outro arquivo chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;batalhaPokemon.py&lt;/code&gt;. Vamos criar uma lista com dois pokemons e fazer com que eles tenham ataque, defesa e vida.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pokemons&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pokemons&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
 	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Pikachu'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;17&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
 	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Squirtle'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
@@ -992,7 +991,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Isso tá um pouco confuso, vamos criar umas variáveis que representem os índices de ataque, defesa e vida&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;NOME&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;NOME&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;ATAQUE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;DEFESA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;VIDA&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
@@ -1005,7 +1004,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Então para escrever uma característica de um dos nossos pokemons, podemos usar:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pokemons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; possui &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pokemons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; possui &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pokemons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ATAQUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pontos de ataque&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -1013,7 +1012,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Vamos manter o sistema de combate simples fazendo com que ele seja simplesmente&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ataque&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pokemon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ATAQUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ataque&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pokemon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ATAQUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;defesa&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pokemon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DEFESA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;dano&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ataque&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;defesa&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pokemon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;VIDA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pokemon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;VIDA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dano&lt;/span&gt;
@@ -1022,7 +1021,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Agora que vimos como realizar o dano, faça os seguintes exercícios:&lt;/p&gt;
 
-&lt;h4 id=&quot;verificao-de-batalha-pokemon&quot;&gt;Verificação de Batalha Pokemon&lt;/h4&gt;
+&lt;h4 id=&quot;verificação-de-batalha-pokemon&quot;&gt;Verificação de Batalha Pokemon&lt;/h4&gt;
 
 &lt;p&gt;Da forma como trabalhamos no cálculo do dano, ele pode ser positivo ou negativo. Se o dano for negativo, o pokemon que foi atacado ganha pontos de vida e não queremos isso, faça uma verificação que só subtraia pontos de vida do pokemon caso o dano tenha sido positivo.&lt;/p&gt;
 
@@ -1030,11 +1029,11 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Você deve ter notado que o código está ficando cada vez mais cheio e maior. Pegue trechos de código que você tem certeza que será repetido no futuro e coloque dentro de funções. &lt;strong&gt;Dica&lt;/strong&gt;: isso inclui o código de captura de pokemon e o código de combate&lt;/p&gt;
 
-&lt;h3 id=&quot;exerccios&quot;&gt;Exercícios&lt;/h3&gt;
+&lt;h3 id=&quot;exercícios&quot;&gt;Exercícios&lt;/h3&gt;
 </description>
-        <pubDate>Sat, 29 Oct 2016 23:23:12 -0200</pubDate>
-        <link>http://localhost:4000/curso-python-2016/2016/10/29/semana07-aula01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/29/semana07-aula01.html</guid>
+        <pubDate>Sun, 30 Oct 2016 01:23:12 +0000</pubDate>
+        <link>/semana07-aula01/</link>
+        <guid isPermaLink="true">/semana07-aula01/</guid>
         
         
         <category>curso-python-2016</category>
@@ -1052,9 +1051,9 @@ Charmander é igual a Charmader
   &lt;li&gt;Listas de listas&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
+&lt;h2 id=&quot;transcrição-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
 
-&lt;h3 id=&quot;exerccios-de-listas&quot;&gt;Exercícios de listas&lt;/h3&gt;
+&lt;h3 id=&quot;exercícios-de-listas&quot;&gt;Exercícios de listas&lt;/h3&gt;
 
 &lt;p&gt;Não esqueça de enviar os exercícios por email antes da aula pelo pastebin. Não deixe para última hora!!!&lt;/p&gt;
 
@@ -1066,7 +1065,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;4 - Faça um programa chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;dobrarListas.py&lt;/code&gt; que monte uma lista aleatória de 15 números de 1 a 30 e imprima os seus números. Na próxima linha, escreva o dobro de cada número. Exemplo de resultado:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;numeros &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;7, 3, 7, 9, ...]
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;numeros &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;7, 3, 7, 9, ...]
 2 x 7 &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 14
 2 x 3 &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 6
 2 x 7 &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 14
@@ -1077,7 +1076,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;5 - Faça um programa que crie uma lista aleatória com 3 números e pergunte ao usuário quais números tem na lista. Se o usuário acertar algum número da lista, informe que ele acertou e remova esse número da lista. Dica: Escreva a lista na tela para testar se o código de apagar o elemento funciona. Ah, e pra remover um número da lista, teste o seguinte código no interpretador python:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;lista&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;lista&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;del&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lista&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lista&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -1087,7 +1086,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;7 - (Desafio) Faça um programa chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;multiplicarListas.py&lt;/code&gt; que monte duas listas aleatórias de 15 números aleatórios e multiplique os números com o mesmo índice. Por exemplo:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;6, 9, 12, ...]
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;6, 9, 12, ...]
 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;7, 2, 12, ...]
 6 x 7 &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 42
 9 x 2 &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 18
@@ -1097,9 +1096,9 @@ Charmander é igual a Charmader
 
 &lt;p&gt;8 - (Mega Desafio) Você deve ter percebido que os programas anteriores tem grandes chances de possuir números iguais. Faça um programa que verifique quais números estão repetidos e aleatorize-os.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 24 Oct 2016 23:23:12 -0200</pubDate>
-        <link>http://localhost:4000/curso-python-2016/2016/10/24/semana06-aula02.html</link>
-        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/24/semana06-aula02.html</guid>
+        <pubDate>Tue, 25 Oct 2016 01:23:12 +0000</pubDate>
+        <link>/semana06-aula02/</link>
+        <guid isPermaLink="true">/semana06-aula02/</guid>
         
         
         <category>curso-python-2016</category>
@@ -1116,13 +1115,13 @@ Charmander é igual a Charmader
   &lt;li&gt;Revisão completa e desafios&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
+&lt;h2 id=&quot;transcrição-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
 
-&lt;h3 id=&quot;relembrando-algumas-funes-teis&quot;&gt;Relembrando algumas funções úteis&lt;/h3&gt;
+&lt;h3 id=&quot;relembrando-algumas-funções-úteis&quot;&gt;Relembrando algumas funções úteis&lt;/h3&gt;
 
 &lt;p&gt;Entre no interpretador python e veja o que cada uma dessas linhas faz, lembre-se de digitar os programas e não copiá-los:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;*&quot;&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;*&quot;&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;*&quot;&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;*&quot;&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
@@ -1161,14 +1160,15 @@ Charmander é igual a Charmader
   &lt;li&gt;Faça um programa que desenhe um triângulo de asteriscos na tela.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-terminal&quot;&gt;  *
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  *
  ***
 *****
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Sun, 23 Oct 2016 23:23:12 -0200</pubDate>
-        <link>http://localhost:4000/curso-python-2016/2016/10/23/semana06-aula01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/23/semana06-aula01.html</guid>
+        <pubDate>Mon, 24 Oct 2016 01:23:12 +0000</pubDate>
+        <link>/semana06-aula01/</link>
+        <guid isPermaLink="true">/semana06-aula01/</guid>
         
         
         <category>curso-python-2016</category>
@@ -1185,7 +1185,7 @@ Charmander é igual a Charmader
   &lt;li&gt;Lists&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;transcrio-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
+&lt;h2 id=&quot;transcrição-da-aula&quot;&gt;Transcrição da Aula&lt;/h2&gt;
 
 &lt;h3 id=&quot;se-tornando-um-mestre-pokemon&quot;&gt;Se tornando um mestre Pokemon&lt;/h3&gt;
 
@@ -1193,18 +1193,18 @@ Charmander é igual a Charmader
 
 &lt;p&gt;O nosso jogo consiste em capturarmos pokemons baseado nas chances que temos de capturá-los. Vamos começar!&lt;/p&gt;
 
-&lt;h3 id=&quot;comeo&quot;&gt;Começo&lt;/h3&gt;
+&lt;h3 id=&quot;começo&quot;&gt;Começo&lt;/h3&gt;
 
 &lt;p&gt;Para começarmos, vamos criar um diálogo entre o nosso jogo e o jogador:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Bem vindo à caçada Pokemon (v0.01)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Bem vindo à caçada Pokemon (v0.01)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Escolha uma direção e tente capturar vários pokemons!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Vamos desenvolver o nosso jogo de maneira incremental. Vamos criar um pokemon tranquilo, um Rattata, e criar uma situação de captura em nosso jogo:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Você encontrou um Rattata!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Você encontrou um Rattata!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Deseja capturá-lo? (s/n)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;resposta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -1212,7 +1212,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Vamos avaliar a nossa resposta. Para isso usamos uma condição &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; para verificar se o que o jogador digitou é válido. Não apenas isso, mas precisamos importar o módulo &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;random&lt;/code&gt;&lt;/strong&gt; para determinar as nossas chances de capturar os pokemons.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Bem vindo à caçada Pokemon (v0.01)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Escolha uma direção e tente capturar vários pokemons!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -1237,7 +1237,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Nosso jogo é funcional, no entanto, temos o problema que ele não é facilmente modificável. Vamos analisar melhor como podemos fazer isso.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Bem vindo à caçada Pokemon (v0.01)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Escolha uma direção e tente capturar vários pokemons!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -1270,7 +1270,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Listas são úteis para que possamos armazenar diversos valores em uma mesma variável. Vamos inicializar uma e ver como funciona:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;lista&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Rattata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Zubat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Charmander&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Pikachu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Dragonite&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;lista&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Rattata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Zubat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Charmander&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Pikachu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Dragonite&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# escreve o que é a lista&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lista&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# escreve o tipo da lista&lt;/span&gt;
@@ -1303,7 +1303,7 @@ Charmander é igual a Charmader
 
 &lt;p&gt;Agora sim podemos trabalhar com múltiplos pokemons, então vamos definir uma lista com as chances e uma lista com os nomes e compartilhar um índice entre eles:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;nomesPokemon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Zubat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Rattata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Charmander&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Pikachu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Dragonite&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;chancesPokemon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
@@ -1331,45 +1331,49 @@ Charmander é igual a Charmader
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;ps-jogo&quot;&gt;Pós jogo&lt;/h3&gt;
+&lt;h3 id=&quot;pós-jogo&quot;&gt;Pós jogo&lt;/h3&gt;
 
 &lt;p&gt;Agora temos um sistema de captura muito mais interessante do que o que tínhamos antes. Ainda faltam muitos recursos, mas um a um nós vamos resolvendo essas questões. Resolvam os exercícios que ajudarão vocês a tornar o jogo melhor!&lt;/p&gt;
 
-&lt;h3 id=&quot;questionrio&quot;&gt;Questionário&lt;/h3&gt;
+&lt;h3 id=&quot;questionário&quot;&gt;Questionário&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Faça um loop que escreva a tabuada de 2:
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 1 = 2&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 2 = 4&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 3 = 6&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 4 = 8&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 5 = 10&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 6 = 12&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 7 = 14&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 8 = 16&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 9 = 18&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 10 = 20&lt;/code&gt;&lt;/p&gt;
+  &lt;li&gt;Faça um loop que escreva a tabuada de 2:
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 1 = 2&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 2 = 4&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 3 = 6&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 4 = 8&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 5 = 10&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 6 = 12&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 7 = 14&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 8 = 16&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 9 = 18&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;2 * 10 = 20&lt;/code&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;Modifique o programa do pokemon para que possamos continuar capturando pokemons até que o jogador não queira mais. &lt;strong&gt;Dica&lt;/strong&gt;: Para fazer isso, você vai precisar usar o &lt;code class=&quot;highlighter-rouge&quot;&gt;while True:&lt;/code&gt; e o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;break&lt;/code&gt; para sair do loop caso o jogador não queira mais jogar. Aqui vai um exemplo de entrada:
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Você encontrou um Charmander!&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Deseja capturá-lo? (s/n)&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Você jogou uma pokebola!&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Você capturou o Charmander!&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Deseja continuar jogando? (s/n)&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt;
-&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Você encontrou um Pikachu!&lt;/code&gt;
-&amp;gt; (…)&lt;/li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Você encontrou um Charmander!&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Deseja capturá-lo? (s/n)&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Você jogou uma pokebola!&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Você capturou o Charmander!&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Deseja continuar jogando? (s/n)&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Você encontrou um Pikachu!&lt;/code&gt;
+(…)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Modifique o programa da tabuada e faça dois loops que escrevam a tabuada do 2 e do 3.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Modifique o programa da tabuada mais uma vez e faça as tabuadas do 2, 3 e do 4.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Mon, 10 Oct 2016 17:23:12 -0200</pubDate>
-        <link>http://localhost:4000/curso-python-2016/2016/10/10/semana04-aula01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/curso-python-2016/2016/10/10/semana04-aula01.html</guid>
+        <pubDate>Mon, 10 Oct 2016 19:23:12 +0000</pubDate>
+        <link>/semana04-aula01/</link>
+        <guid isPermaLink="true">/semana04-aula01/</guid>
         
         
         <category>curso-python-2016</category>

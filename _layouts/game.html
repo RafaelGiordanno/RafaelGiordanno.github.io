@@ -1,0 +1,43 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include nav.html %}
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title">
+                    <h1>{{ page.title }}</h1>
+                    <a class="btn zoombtn" href="/">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </div>
+                <div>
+                    <p>Rafael desenvolveu seu primeiro jogo em 2011 para o projeto final
+                    do seu curso de técnico em Informática do CEFET/RJ e, desde então,
+                    vem desenvolvendo jogos sempre que pode. Atualmente trabalha como
+                    programador na <a href="http://arcolabs.com.br/" target="_blank">Arcolabs</a>
+                    e está finalizando o aplicativo infantil do Mundo Bita previsto para
+                    lançamento em abril de 2018.</p>
+
+                    <p>Seus jogos podem ser encontrados em sua página do 
+                    <a href="https://rafaelgiordanno.itch.io/">itch.io</a>.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    {% include scripts.html %}
+    <script src="{{ site.url }}/assets/js/wow.min.js"></script>
+    <script type="text/javascript">(new WOW).init();</script>
+</body>
+</html>

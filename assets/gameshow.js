@@ -15,7 +15,7 @@ var app = new PIXI.Application(width, height, { antialias: true, backgroundColor
 var games = [];
 var currentGameIndex = 0;
 
-PIXI.loader.add('shader', 'assets/shader.frag').load(onLoaded);
+PIXI.loader.add('shader', '/assets/shader.frag').load(onLoaded);
 app.stop();
 var outlineFilter = new PIXI.filters.RGBSplitFilter([3, 5], [-3, -5], [0, 0]);
 var filter;
