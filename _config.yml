@@ -63,7 +63,7 @@ medium:            '@rafaelgiordanno'
 #hackernews:        username
 
 # Gems
-plugins:
+gems:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
