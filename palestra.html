@@ -22,9 +22,8 @@ layout: page
     </script>
 	<script src="{{ site.baseurl }}/assets/pixi.js"></script>
     <script src="{{ site.baseurl }}/assets/pixi-filters.js"></script>
-    <script src="{{ site.baseurl }}/assets/gameshow.js"></script>
     <script>
-        // helper math functions
+        console.log("adding helper functions");
 function clamp(num, min, max) {
     return (num <= min) ? min : (num >= max ? max : num);
 }
@@ -39,7 +38,7 @@ function distance(x1, y1, x2, y2) {
 }
 function arcctg(x) { return Math.PI / 2 - Math.atan(x); }
 
-// t: time, b: beginning, _c: end, d: duration
+/*t: time, b: beginning, _c: end, d: duration*/
 function easeInQuad(t, b, _c, d) {
     var c = _c - b;
     return c * (t /= d) * t + b;
@@ -68,4 +67,5 @@ function easeInElastic(t, b, _c, d) {
     return -(a * Math.pow(2, 10 * (t -= 1)) * Math.sin((t * d - s) * (2 * Math.PI) / p)) + b;
 }
     </script>
+    <script src="{{ site.baseurl }}/assets/gameshow.js"></script>
 </div>

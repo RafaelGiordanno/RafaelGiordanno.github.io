@@ -5,15 +5,15 @@
     <description>Desenvolvedor e compositor</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Nov 2018 01:42:15 +0000</pubDate>
-    <lastBuildDate>Sat, 17 Nov 2018 01:42:15 +0000</lastBuildDate>
+    <pubDate>Thu, 02 May 2019 11:32:04 +0000</pubDate>
+    <lastBuildDate>Thu, 02 May 2019 11:32:04 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Minha palestra sobre game feel na UFRJ</title>
         <description>&lt;p&gt;Eu apresentei uma palestra na UFRJ no dia 18/09 sobre Game Feel e como tornar o seu primeiro jogo mais interessante.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://scontent.fsdu5-1.fna.fbcdn.net/v/t1.0-9/21742930_1322323554620510_8237324004708276040_n.png?oh=cd545e7e01015666fe701c81fd7eb3ea&amp;amp;oe=5A5EBA81&quot; alt=&quot;Banner da palestra&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/ufrj-2017.png&quot; alt=&quot;Banner da palestra&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Eu achei que seria interessante mostrar um pouco sobre tweening, reação dos jogadores e como é possível usar
 apenas formas geométricas para criar uma experiência mais interessante.

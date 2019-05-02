@@ -11,7 +11,7 @@ tags:
 
 Eu apresentei uma palestra na UFRJ no dia 18/09 sobre Game Feel e como tornar o seu primeiro jogo mais interessante.
 
-![Banner da palestra](https://scontent.fsdu5-1.fna.fbcdn.net/v/t1.0-9/21742930_1322323554620510_8237324004708276040_n.png?oh=cd545e7e01015666fe701c81fd7eb3ea&oe=5A5EBA81)
+![Banner da palestra]({{ site.baseurl }}/assets/img/ufrj-2017.png)
 
 Eu achei que seria interessante mostrar um pouco sobre tweening, reação dos jogadores e como é possível usar
 apenas formas geométricas para criar uma experiência mais interessante.
